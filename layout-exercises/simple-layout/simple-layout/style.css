@@ -1,0 +1,20 @@
+* {
+    margin:0px;
+  }
+  
+  .columns {
+    background-color:lightseagreen;
+    border: 1px black solid;
+    display: flex;
+  }
+  
+  .column-one {
+    width: 30%;
+    padding: 2%;
+
+  }
+
+  .column-two {
+    width: 70%;
+    padding: 2%;
+  }

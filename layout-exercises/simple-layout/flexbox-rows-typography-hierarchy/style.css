@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+  }
+  
+  .box{
+    background:turquoise;
+    width: 60%;
+    height: 60%;
+    margin: 1%;
+    padding: 2%;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  h1{
+    font-size: 50%
+  }
+  
+  h3{
+    font-size: 15%
+  }
+  
+  p{
+    font-size: 5%
+  }
+  
