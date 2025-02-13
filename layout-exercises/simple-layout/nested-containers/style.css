@@ -1,31 +1,35 @@
 .container-one{
     position: absolute;
     background: red;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     padding: 2%;
+    margin: 0 auto; 
   }
   
   .container-two{
     position: absolute;
     background: orange;
-    width: 50%;
+    width: 50vw;
     height: 50%;
     padding: 2%;
+    margin: 0 auto; 
   }
   
   .container-three{
     position: absolute;
     background: yellow;
-    width: 25%;
+    width: 25vw;
     height: 25%;
     padding: 2%;
+    margin: 0 auto; 
   }
   
   .container-four{
     position: absolute;
     background: green;
-    width: 12.5%;
+    width: 12vw;
     height: 12.5%;
     padding: 2%;
+    margin: 0 auto; 
   }

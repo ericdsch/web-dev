@@ -2,6 +2,11 @@
     display: flex;
   }
   
+  .scroll-container {
+    overflow: scroll;
+    width: 100vw;
+
+  }
   .box{
     background:turquoise;
     width: 60%;
