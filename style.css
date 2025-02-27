@@ -1,0 +1,97 @@
+/* General page styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(243, 245, 211);
+    text-align: center;
+    overflow-y: auto;
+}
+
+/* Main container for text */
+.container {
+    width: 60%;
+    text-align: justify;
+    padding: 20px;
+}
+
+/* Title styles */
+h1, .title-black {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.title-gray-italic {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    color: gray;
+}
+
+/* Section styling */
+.text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+}
+
+/* Main text in black */
+.black {
+    color: black;
+    font-size: 1.2em;
+}
+
+/* Parallel Romanization in dark gray */
+.dark-gray {
+    color: darkgray;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+/* Dungan text */
+.dungan-dark-gray {
+    color: darkgray;
+    font-size: 1.1em;
+}
+
+/* Dungan transcription */
+.dungan-light-gray {
+    color: gray;
+    font-size: 1em;
+}
+
+/* Chinese translation */
+.chinese-light-gray {
+    color: lightgray;
+    font-size: 1em;
+}
+
+/* Zhuyin Furigana (Ruby annotations) */
+ruby {
+    ruby-position: over;
+}
+
+ruby rt {
+    font-size: 0.8em;
+    color: gray;
+}
+
+/* Romanized Chinese */
+.chinese-romanization {
+    color: lightgray;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+/* English translation */
+.english {
+    color: black;
+    font-size: 1.2em;
+    text-align: justify;
+}
