@@ -1,4 +1,4 @@
-/* General page styling */
+
 body {
     display: flex;
     justify-content: center;
@@ -10,14 +10,13 @@ body {
     overflow-y: auto;
 }
 
-/* Main container for text */
+
 .container {
     width: 60%;
     text-align: justify;
     padding: 20px;
 }
 
-/* Title styles */
 h1, .title-black {
     text-align: center;
     font-size: 2em;
@@ -25,54 +24,59 @@ h1, .title-black {
     color: black;
 }
 
-.title-gray-italic {
+h2.gray.italic {
     text-align: center;
     font-size: 1.5em;
     font-style: italic;
     color: gray;
 }
 
-/* Section styling */
-.text-block {
+.text-block, .text-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
     width: 100%;
+    margin-bottom: 15px;
 }
 
-/* Main text in black */
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+    width: 50%;
+}
+
+.right {
+    text-align: right;
+    width: 50%;
+}
+
+
 .black {
     color: black;
     font-size: 1.2em;
 }
 
-/* Parallel Romanization in dark gray */
-.dark-gray {
-    color: darkgray;
-    font-size: 1.1em;
-    text-align: right;
-}
-
-/* Dungan text */
-.dungan-dark-gray {
+.dark-grey {
     color: darkgray;
     font-size: 1.1em;
 }
 
-/* Dungan transcription */
-.dungan-light-gray {
-    color: gray;
-    font-size: 1em;
-}
-
-/* Chinese translation */
-.chinese-light-gray {
+.light-grey {
     color: lightgray;
     font-size: 1em;
 }
 
-/* Zhuyin */
+.grey {
+    color: gray;
+}
+
+/* Zhuyin RUBY*/
 ruby {
     ruby-position: inter-character;
 }
@@ -80,19 +84,7 @@ ruby {
 ruby rt {
     font-size: 0.8em;
     color: gray;
-    ruby-position: inter-character;
 }
-
-/* Romanized Chinese */
-.chinese-romanization {
+.chinese, ruby rb {
     color: lightgray;
-    font-size: 0.9em;
-    text-align: right;
-}
-
-/* English translation */
-.english {
-    color: black;
-    font-size: 1.2em;
-    text-align: justify;
 }
