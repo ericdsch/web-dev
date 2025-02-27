@@ -74,12 +74,13 @@ h1, .title-black {
 
 /* Zhuyin */
 ruby {
-    ruby-position: over;
+    ruby-position: inter-character;
 }
 
 ruby rt {
     font-size: 0.8em;
     color: gray;
+    ruby-position: inter-character;
 }
 
 /* Romanized Chinese */
