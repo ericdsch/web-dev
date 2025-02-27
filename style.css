@@ -72,7 +72,7 @@ h1, .title-black {
     font-size: 1em;
 }
 
-/* Zhuyin Furigana (Ruby annotations) */
+/* Zhuyin */
 ruby {
     ruby-position: over;
 }
