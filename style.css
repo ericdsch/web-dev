@@ -8,6 +8,7 @@ body {
     background-color: rgb(243, 245, 211);
     text-align: center;
     overflow-y: auto;
+    font-family: 'Courier New', Courier, monospace
 }
 
 
@@ -17,14 +18,14 @@ body {
     padding: 20px;
 }
 
-h1, .title-black {
+.h1.title-black {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
     color: black;
 }
 
-h2.gray.italic {
+.h2.gray.italic {
     text-align: center;
     font-size: 1.5em;
     font-style: italic;
@@ -77,14 +78,15 @@ h2.gray.italic {
 }
 
 /* Zhuyin RUBY*/
-ruby {
+.ruby {
     ruby-position: inter-character;
 }
 
-ruby rt {
+.ruby rt {
     font-size: 0.8em;
     color: gray;
 }
 .chinese, ruby rb {
     color: lightgray;
 }
+
