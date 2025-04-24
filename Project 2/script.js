@@ -19,6 +19,7 @@ let renderBooks = (data) => {
     newDiv.setAttribute("data-genre", book.language);
     newDiv.innerHTML = `
     <h3>${book.Title}</h3>
+    <img src="${book.image}" alt="${book.Title}" class="book-image"/>
     <p>${book.language}</p>
     <p>${book.script}</p>
     <p>${book.scriptspecifications}</p>
@@ -28,7 +29,7 @@ let renderBooks = (data) => {
     <p>${book.author}</p>
     <p>${book.NationalityofAuthor}</p>
     <p>${book.Description}</p>
-    <img src="${book.image}" alt="${book.Title}" class="book-image"/>
+    
   `;
     wrapper.append(newDiv);
   });
