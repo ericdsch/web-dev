@@ -13,6 +13,7 @@ let wrapper = document.querySelector(".wrapper");
 
 let renderBooks = (data) => {
   console.log(data);
+  console.log(data.map(book => book.image));
   data.forEach((book) => {
     let newDiv = document.createElement("div");
     newDiv.setAttribute("data-genre", book.language);
@@ -27,7 +28,7 @@ let renderBooks = (data) => {
     <p>${book.author}</p>
     <p>${book.NationalityofAuthor}</p>
     <p>${book.Description}</p>
-    <img src="${book.image}" alt="${book.Title}" />
+    <img src="${book.image}" alt="${book.Title}" class="book-image"/>
   `;
     wrapper.append(newDiv);
   });

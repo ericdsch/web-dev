@@ -11,8 +11,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 200px);
-  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   margin: 2em 0;
 }
 
@@ -26,6 +25,11 @@ body {
   width: 100%;
   height: auto;
   margin-top: 10px;
+}
+
+.book-image {
+  width: 800px;
+  height: auto; 
 }
 
 .filters {
