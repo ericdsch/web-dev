@@ -1,7 +1,8 @@
  body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     display: flex;
+    background-color: greenyellow;
   }
 
   .sidebar {
@@ -23,7 +24,7 @@
   }
 
   .archive-record {
-    background: white;
+    background: greenyellow;
     padding: 15px;
   }
 
@@ -32,3 +33,101 @@
       display: none;
     }
   }
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.filters {
+    display: flex;
+    gap: 2em;
+    height: 50px;
+    display: fixed;
+    align-items: center;
+    top: 0;
+    
+}
+
+.filter {
+    cursor: pointer;
+    padding:  0.2em 0.5em;
+}
+
+
+.wrapper > * {
+    aspect-ratio: 1/1;
+    border: 1px black solid;
+    padding: 1em;
+}
+
+h2 {
+    margin: 0;
+}
+
+ody {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.filters {
+  display: flex;
+  gap: 2em;
+  height: 50px;
+  display: fixed;
+  align-items: center;
+  top: 0;
+  
+}
+
+.filter {
+  cursor: pointer;
+  padding:  0.2em 0.5em;
+}
+
+
+.wrapper > * {
+  aspect-ratio: 1/1;
+  border: 1px black solid;
+  padding: 1em;
+}
+
+h2 {
+  margin: 0;
+}
+
+
+.btns {
+  display: flex;
+  gap: 1em;
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.sort {
+  cursor: pointer;
+}
